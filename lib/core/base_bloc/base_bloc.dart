@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:core_project/core/bloc/base_event.dart';
-import 'package:core_project/core/bloc/base_state.dart';
+import 'package:core_project/core/base_bloc/base_event.dart';
+import 'package:core_project/core/base_bloc/base_state.dart';
 
 class BaseBloc extends Bloc<BaseEvent, BaseState> {
   BaseBloc() : super(const InitialState()) {
