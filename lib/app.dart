@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         disableFocus(context, () async {});
       },
       child: GetMaterialApp(
-        title: 'liex_app',
+        title: 'core_app',
         initialBinding: AuthBinding(),
         getPages: AppPages.pages,
         home: const BlankPage(),

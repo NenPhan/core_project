@@ -5,7 +5,7 @@ import 'app.dart';
 
 void main() {
   runApp(AppConfig(
-      appName: 'Liex Production',
+      appName: 'Core Development',
       flavorName: AppFlavor.DEVELOPMENT,
       apiUrl: '',
       host: '',
